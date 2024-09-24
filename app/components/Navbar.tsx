@@ -2,23 +2,23 @@
 
 import React, { useState } from "react";
 // import Logo from "../assets/logo.png";
-import { FaBars, FaTimes, FaGithub, FaLinkedin } from "react-icons/fa";
+import { FaBars, FaGithub, FaLinkedin } from "react-icons/fa";
 import { HiOutlineMail } from "react-icons/hi";
 import { BsFillPersonLinesFill } from "react-icons/bs";
+import { IoMdReturnLeft } from "react-icons/io";
 
 const Navbar = () => {
   const [nav, setNav] = useState(false);
   const navStateHandler = () => setNav(!nav);
 
   return (
-    <div className="fixed w-full h-20 flex justify-between items-center px-4 bg-[#0a192f] text-gray-300">
-      <div className="text-2xl h-[60px] text-pink-500">
-        Gerald Regan
+    <div className="fixed w-full h-20 flex justify-between items-center px-4 bg-[#0a192f] text-[#9EA3B0]">
+      <div className="text-2xl h-[60px] text-[#33ca7f]">
         {/* <img src={Logo} alt={"Logo Image"} style={{ width: "50px" }}></img> */}
       </div>
 
       {/* {MENU} */}
-      <ul className="hidden md:flex gap-8 font-medium">
+      <ul className="hidden lg:flex gap-8 font-medium pr-4">
         <li>Home</li>
         <li>About</li>
         <li>Skills</li>
@@ -27,8 +27,8 @@ const Navbar = () => {
       </ul>
 
       {/* {HAMBURGER ICON} */}
-      <div onClick={navStateHandler} className="md:hidden z-10">
-        {!nav ? <FaBars /> : <FaTimes />}
+      <div onClick={navStateHandler} className="lg:hidden z-10">
+        {!nav ? <FaBars size={32} /> : <IoMdReturnLeft size={38} />}
       </div>
 
       {/* {MOBILE MENU} */}
@@ -36,22 +36,22 @@ const Navbar = () => {
         className={
           !nav
             ? "hidden"
-            : "absolute top-0 left-0 w-full h-screen bg-[#0a192f] flex flex-col justify-center items-center"
+            : "absolute top-0 left-0 w-full h-screen bg-[#0a192f] flex flex-col justify-center items-center gap-12 text-4xl"
         }
       >
-        <li className="py-6 text-4xl">Home</li>
-        <li className="py-6 text-4xl">About</li>
-        <li className="py-6 text-4xl">Skills</li>
-        <li className="py-6 text-4xl">Projects</li>
-        <li className="py-6 text-4xl">Contact</li>
+        <li>Home</li>
+        <li>About</li>
+        <li>Skills</li>
+        <li>Projects</li>
+        <li>Contact</li>
       </ul>
 
       {/* {SOCIAL ICONS} */}
-      <div className="flex fixed flex-col top-[35%] left-0">
+      <div className="hidden lg:flex fixed flex-col top-[35%] left-0 text-[#0a192f] text-lg">
         <ul>
-          <li className="w-40 h-14 flex items-center ml-[-100px] hover:ml-0 duration-300 bg-blue-500">
+          <li className="w-40 h-14 flex items-center ml-[-100px] hover:ml-0 duration-300 bg-[#9EA3B0] pr-4 pl-4">
             <a
-              className="flex justify-between items-center w-full text-gray-300 text-xl"
+              className="flex justify-between items-center w-full"
               href="https://www.linkedin.com/in/gerald-regan/"
               target="_blank"
               rel="noopener noreferrer"
@@ -59,9 +59,9 @@ const Navbar = () => {
               linkedIn <FaLinkedin size={30} />
             </a>
           </li>
-          <li className="w-40 h-14 flex items-center ml-[-100px] hover:ml-0 duration-300 bg-black">
+          <li className="w-40 h-14 flex items-center ml-[-100px] hover:ml-0 duration-300 bg-[#9EA3B0] pr-4 pl-4">
             <a
-              className="flex justify-between items-center w-full text-gray-300 text-xl"
+              className="flex justify-between items-center w-full"
               href="https://github.com/Hakametal"
               target="_blank"
               rel="noopener noreferrer"
@@ -69,19 +69,19 @@ const Navbar = () => {
               github <FaGithub size={30} />
             </a>
           </li>
-          <li className="w-40 h-14 flex justify-between items-center ml-[-100px] hover:ml-0 duration-300 bg-purple-900">
+          <li className="w-40 h-14 flex justify-between items-center ml-[-100px] hover:ml-0 duration-300 bg-[#9EA3B0] pr-4 pl-4">
             <a
-              className="flex justify-between items-center w-full text-gray-300 text-xl"
+              className="flex justify-between items-center w-full"
               href="mailto:geraldregan@proton.me"
               target="_blank"
               rel="noopener noreferrer"
             >
-              email <HiOutlineMail size={30} />
+              contact <HiOutlineMail size={30} />
             </a>
           </li>
-          <li className="w-40 h-14 flex justify-between items-center ml-[-100px] hover:ml-0 duration-300 bg-green-700">
+          <li className="w-40 h-14 flex justify-between items-center ml-[-100px] hover:ml-0 duration-300 bg-[#9EA3B0] pr-4 pl-4">
             <a
-              className="flex justify-between items-center w-full text-gray-300 text-xl"
+              className="flex justify-between items-center w-full"
               href=""
               target="_blank"
               rel="noopener noreferrer"
