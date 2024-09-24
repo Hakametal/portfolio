@@ -19,11 +19,11 @@ const Navbar = () => {
 
       {/* {MENU} */}
       <ul className="hidden lg:flex gap-8 font-medium pr-4">
-        <li>Home</li>
-        <li>About</li>
-        <li>Skills</li>
-        <li>Projects</li>
-        <li>Contact</li>
+        <li className="hover:text-[#33ca7f] duration-500">Home</li>
+        <li className="hover:text-[#33ca7f] duration-500">About</li>
+        <li className="hover:text-[#33ca7f] duration-500">Skills</li>
+        <li className="hover:text-[#33ca7f] duration-500">Projects</li>
+        <li className="hover:text-[#33ca7f] duration-500">Contact</li>
       </ul>
 
       {/* {HAMBURGER ICON} */}
@@ -49,7 +49,7 @@ const Navbar = () => {
       {/* {SOCIAL ICONS} */}
       <div className="hidden lg:flex fixed flex-col top-[35%] left-0 text-[#0a192f] text-lg">
         <ul>
-          <li className="w-40 h-14 flex items-center ml-[-100px] hover:ml-0 duration-300 bg-[#9EA3B0] pr-4 pl-4">
+          <li className="w-40 h-14 flex items-center ml-[-100px] hover:ml-0 duration-300 bg-[#9EA3B0] pr-4 pl-4 border-b-2 border-[#0a192f] rounded-r-lg">
             <a
               className="flex justify-between items-center w-full"
               href="https://www.linkedin.com/in/gerald-regan/"
@@ -59,7 +59,7 @@ const Navbar = () => {
               linkedIn <FaLinkedin size={30} />
             </a>
           </li>
-          <li className="w-40 h-14 flex items-center ml-[-100px] hover:ml-0 duration-300 bg-[#9EA3B0] pr-4 pl-4">
+          <li className="w-40 h-14 flex items-center ml-[-100px] hover:ml-0 duration-300 bg-[#9EA3B0] pr-4 pl-4 border-b-2 border-[#0a192f] rounded-r-lg">
             <a
               className="flex justify-between items-center w-full"
               href="https://github.com/Hakametal"
@@ -69,7 +69,7 @@ const Navbar = () => {
               github <FaGithub size={30} />
             </a>
           </li>
-          <li className="w-40 h-14 flex justify-between items-center ml-[-100px] hover:ml-0 duration-300 bg-[#9EA3B0] pr-4 pl-4">
+          <li className="w-40 h-14 flex justify-between items-center ml-[-100px] hover:ml-0 duration-300 bg-[#9EA3B0] pr-4 pl-4 border-b-2 border-[#0a192f] rounded-r-lg">
             <a
               className="flex justify-between items-center w-full"
               href="mailto:geraldregan@proton.me"
@@ -79,7 +79,7 @@ const Navbar = () => {
               contact <HiOutlineMail size={30} />
             </a>
           </li>
-          <li className="w-40 h-14 flex justify-between items-center ml-[-100px] hover:ml-0 duration-300 bg-[#9EA3B0] pr-4 pl-4">
+          <li className="w-40 h-14 flex justify-between items-center ml-[-100px] hover:ml-0 duration-300 bg-[#9EA3B0] pr-4 pl-4 border-b-2 border-[#0a192f] rounded-r-lg">
             <a
               className="flex justify-between items-center w-full"
               href=""
