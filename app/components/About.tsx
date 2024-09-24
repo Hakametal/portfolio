@@ -25,10 +25,10 @@ const About = () => {
             className="w-auto h-96 mx-auto rounded-lg"
           />
           <div>
-            <p>
+            <p className="text-lg text-[#9EA3B0]">
               I am passionate about building elegant web applications with
-              modern JavaScript frameworks. I specialize in ReactJS (Next),
-              Tailwind CSS and TypeScript.
+              modern JavaScript frameworks. I specialise in ReactJS (currently
+              using NextJS), Tailwind CSS and TypeScript.
             </p>
           </div>
         </div>

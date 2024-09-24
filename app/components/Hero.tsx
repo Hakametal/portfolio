@@ -8,7 +8,7 @@ const Hero = () => {
         <p className="text-[#33ca7f] text-lg">Hi, I'm</p>
         <h1 className="text-4xl sm:text-7xl font-bold text-white">GERALD.</h1>
         <h2 className="text-4xl sm:text-7xl font-bold text-[#9EA3B0]">
-          I'm a front-end engineer.
+          I make front-end web applications.
         </h2>
         <p className="text-[#9EA3B0] py-4 max-w-[700px] text-lg">
           I’m a front-end developer currently based in Bordeaux, France.
