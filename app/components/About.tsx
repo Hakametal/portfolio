@@ -13,12 +13,12 @@ const About: React.FC = () => {
           </div>
         </div>
         <div className="max-w-[62.5rem] w-full grid sm:grid-cols-2 gap-8 px-4">
-          {/* <div className="sm:text-right text-4xl font-bold">
+          <div className="sm:text-right text-4xl font-bold">
             <p>
               Hi. I'm Gerald Regan, thanks for checking out my portfolio! Please
               take a look around.
             </p>
-          </div> */}
+          </div>
           <img
             src={Avatar.src}
             alt="Avatar"

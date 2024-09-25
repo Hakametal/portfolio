@@ -76,14 +76,16 @@ const Contact: React.FC = () => {
       </form>
 
       {showPopup && (
-        <div className="fixed inset-0 flex items-center justify-center bg-black bg-opacity-50">
+        <div className="fixed inset-0 flex items-center justify-center bg-black bg-opacity-65">
           <div className="bg-white p-4 rounded-lg">
-            <h2 className="text-lg font-bold mb-2">Success!</h2>
-            <p className="text-gray-600">
-              Thanks for reaching out! I'll get back to you asap ;)
+            <h2 className="text-lg font-bold mb-2 text-[#0a192f] flex">
+              Sent!
+            </h2>
+            <p className="text-[#9EA3B0]">
+              Thanks for reaching out, I'll get back to you asap ;)
             </p>
             <button
-              className="mt-4 px-4 py-2 bg-[#33ca7f] text-[#0a192f] rounded-lg"
+              className="w-full mt-4 px-4 py-2 bg-[#33ca7f] text-[#0a192f] rounded-lg"
               onClick={() => setShowPopup(false)}
             >
               Close
