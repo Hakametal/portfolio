@@ -1,13 +1,14 @@
 "use client";
 
 import React, { useState } from "react";
-// import Logo from "../assets/logo.png";
+// import Logo possibly from a file
 import { FaBars, FaGithub, FaLinkedin } from "react-icons/fa";
 import { HiOutlineMail } from "react-icons/hi";
 import { BsFillPersonLinesFill } from "react-icons/bs";
 import { IoMdReturnLeft } from "react-icons/io";
+import { Link } from "react-scroll";
 
-const Navbar = () => {
+const Navbar: React.FC = () => {
   const [nav, setNav] = useState(false);
   const navStateHandler = () => setNav(!nav);
 
@@ -19,11 +20,27 @@ const Navbar = () => {
 
       {/* {MENU} */}
       <ul className="hidden lg:flex gap-8 font-medium pr-4">
-        <li className="hover:text-[#33ca7f] duration-500">Home</li>
-        <li className="hover:text-[#33ca7f] duration-500">About</li>
-        <li className="hover:text-[#33ca7f] duration-500">Skills</li>
+        <li className="hover:text-[#33ca7f] duration-500">
+          <Link to="home" smooth={true} duration={500}>
+            Home
+          </Link>
+        </li>
+        <li className="hover:text-[#33ca7f] duration-500">
+          <Link to="about" smooth={true} duration={500}>
+            About
+          </Link>
+        </li>
+        <li className="hover:text-[#33ca7f] duration-500">
+          <Link to="skills" smooth={true} duration={500}>
+            Skills
+          </Link>
+        </li>
         <li className="hover:text-[#33ca7f] duration-500">Projects</li>
-        <li className="hover:text-[#33ca7f] duration-500">Contact</li>
+        <li className="hover:text-[#33ca7f] duration-500">
+          <Link to="contact" smooth={true} duration={500}>
+            Contact
+          </Link>
+        </li>
       </ul>
 
       {/* {HAMBURGER ICON} */}

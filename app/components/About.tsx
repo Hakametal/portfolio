@@ -1,9 +1,9 @@
 import React from "react";
 import Avatar from "../avatar.jpg";
 
-const About = () => {
+const About: React.FC = () => {
   return (
-    <div name="about" className="w-full h-screen bg-[#0a192f] text-gray-300">
+    <div name="about" className="w-full h-screen bg-[#0a192f] text-white">
       <div className="flex flex-col justify-center items-center w-full h-full">
         <div className="max-w-[1000px] w-full gap-8">
           <div className="sm:text-right pb-8 pl-4">

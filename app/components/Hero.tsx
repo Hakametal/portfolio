@@ -1,17 +1,17 @@
 import React from "react";
 import { HiChevronRight } from "react-icons/hi";
 
-const Hero = () => {
+const Hero: React.FC = () => {
   return (
     <div name="home" className="w-full h-screen bg-[#0a192f]">
       <div className="max-w-[1000px] mx-auto px-8 flex flex-col justify-center h-full">
-        <p className="text-[#33ca7f] text-lg">Hi, I'm</p>
+        <p className="text-[#33ca7f] text-2xl">Hi, I'm</p>
         <h1 className="text-4xl sm:text-7xl font-bold text-white">GERALD.</h1>
         <h2 className="text-4xl sm:text-7xl font-bold text-[#9EA3B0]">
           I make front-end web applications.
         </h2>
         <p className="text-[#9EA3B0] py-4 max-w-[700px] text-lg">
-          I’m a front-end developer currently based in Bordeaux, France.
+          Front-end developer currently based in Bordeaux, France.
           <br /> I specialise in building responsive and elegant web
           applications.
         </p>
