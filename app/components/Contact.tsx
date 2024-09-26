@@ -10,7 +10,9 @@ const Contact: React.FC = () => {
   const handleFormSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
     handleSubmit(e);
-    setShowPopup(true);
+    setTimeout(() => {
+      setShowPopup(true);
+    }, 500);
   };
 
   return (
@@ -22,7 +24,7 @@ const Contact: React.FC = () => {
         onSubmit={handleFormSubmit}
         action={"https://formspree.io/f/xjkbqnyy"}
         method="POST"
-        className="w-72 lg:w-1/3 mx-auto text-[#9EA3B0] flex flex-col"
+        className="w-72 lg:w-1/4 mx-auto text-[#9EA3B0] flex flex-col"
       >
         <div className="mb-4">
           <label htmlFor="name" className="block mb-2 text-lg">

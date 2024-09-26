@@ -36,7 +36,9 @@ const Navbar: React.FC = () => {
           </Link>
         </li>
         <li className="hover:text-[#33ca7f] duration-500 cursor-default hover:cursor-pointer">
-          Projects
+          <Link to="projects" smooth={true} duration={500}>
+            Projects
+          </Link>
         </li>
         <li className="hover:text-[#33ca7f] duration-500 cursor-default hover:cursor-pointer">
           <Link to="contact" smooth={true} duration={500}>
@@ -68,17 +70,18 @@ const Navbar: React.FC = () => {
       {/* {SOCIAL ICONS} */}
       <div className="hidden lg:flex fixed flex-col top-[35%] left-0 text-[#0a192f] text-lg">
         <ul>
-          <li className="w-40 h-14 flex items-center ml-[-100px] hover:ml-0 duration-300 bg-[#9EA3B0] pr-4 pl-4 border-b-2 border-[#0a192f] rounded-r-lg">
-            <a
-              className="flex justify-between items-center w-full"
-              href="https://www.linkedin.com/in/gerald-regan/"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
+          {/* Change the order of the li and the anchor tag */}
+          <a
+            className="flex justify-between items-center w-full"
+            href="https://www.linkedin.com/in/gerald-regan/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <li className="w-40 h-14 flex items-center ml-[-6.25rem] hover:ml-0 duration-300 bg-[#9EA3B0] pr-4 pl-4 border-b-2 border-[#0a192f] rounded-r-lg">
               linkedIn <FaLinkedin size={30} />
-            </a>
-          </li>
-          <li className="w-40 h-14 flex items-center ml-[-100px] hover:ml-0 duration-300 bg-[#9EA3B0] pr-4 pl-4 border-b-2 border-[#0a192f] rounded-r-lg">
+            </li>
+          </a>
+          <li className="w-40 h-14 flex items-center ml-[-6.25rem] hover:ml-0 duration-300 bg-[#9EA3B0] pr-4 pl-4 border-b-2 border-[#0a192f] rounded-r-lg">
             <a
               className="flex justify-between items-center w-full"
               href="https://github.com/Hakametal"
@@ -88,7 +91,7 @@ const Navbar: React.FC = () => {
               github <FaGithub size={30} />
             </a>
           </li>
-          <li className="w-40 h-14 flex justify-between items-center ml-[-100px] hover:ml-0 duration-300 bg-[#9EA3B0] pr-4 pl-4 border-b-2 border-[#0a192f] rounded-r-lg">
+          <li className="w-40 h-14 flex justify-between items-center ml-[-6.25rem] hover:ml-0 duration-300 bg-[#9EA3B0] pr-4 pl-4 border-b-2 border-[#0a192f] rounded-r-lg">
             <a
               className="flex justify-between items-center w-full"
               href="mailto:geraldregan@proton.me"
@@ -98,10 +101,10 @@ const Navbar: React.FC = () => {
               contact <HiOutlineMail size={30} />
             </a>
           </li>
-          <li className="w-40 h-14 flex justify-between items-center ml-[-100px] hover:ml-0 duration-300 bg-[#9EA3B0] pr-4 pl-4 border-b-2 border-[#0a192f] rounded-r-lg">
+          <li className="w-40 h-14 flex justify-between items-center ml-[-6.25rem] hover:ml-0 duration-300 bg-[#9EA3B0] pr-4 pl-4 border-b-2 border-[#0a192f] rounded-r-lg">
             <a
               className="flex justify-between items-center w-full"
-              href=""
+              href="https://drive.google.com/file/d/1KTFJT-x_HDklBVoLjGxkLHnR7IM3RuQC/view?usp=sharing"
               target="_blank"
               rel="noopener noreferrer"
             >
