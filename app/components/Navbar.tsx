@@ -78,7 +78,7 @@ const Navbar: React.FC = () => {
             rel="noopener noreferrer"
           >
             <li className="flex justify-between items-center w-full">
-              linkedIn <FaLinkedin size={30} />
+              linkedin <FaLinkedin size={30} />
             </li>
           </a>
           <a

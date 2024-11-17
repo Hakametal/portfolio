@@ -21,7 +21,7 @@ const Hero: React.FC = () => {
         <div>
           <Link to="about" smooth={true} duration={500}>
             <button className="rounded-lg text-white group border-2 px-6 py-3 my-2 flex items-center hover:bg-[#33ca7f] hover:border-[#33ca7f] hover:text-[#0a192f] duration-200">
-              About Me
+              About me
               <span className="group-hover:rotate-90 duration-300">
                 <HiChevronRight className="ml-4" />
               </span>

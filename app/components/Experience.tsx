@@ -12,13 +12,13 @@ const Experience: React.FC = () => {
   return (
     <div name="skills" className="w-full h-screen bg-[#0a192f] text-white">
       {/* Container */}
-      <div className="max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full">
+      <div className="max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full text-sm">
         <div>
           <p className="text-4xl font-bold inline border-b-4 border-[#33ca7f] ">
             Skills
           </p>
           <p className="py-4 text-lg text-[#9EA3B0]">
-            These are the technologies I've worked with.
+            Some of the technologies I've worked with.
           </p>
         </div>
 
@@ -37,7 +37,7 @@ const Experience: React.FC = () => {
               src={JavaScript.src}
               alt="JavaScript icon"
             />
-            <p className="my-4">JAVASCRIPT</p>
+            <p className="my-4">JavaScript</p>
           </div>
           <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500">
             <img
@@ -45,15 +45,15 @@ const Experience: React.FC = () => {
               src={ReactImg.src}
               alt="ReactJS icon"
             />
-            <p className="my-4">REACT JS</p>
+            <p className="my-4">React.js</p>
           </div>
           <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500">
             <img className="w-20 mx-auto" src={Git.src} alt="Git icon" />
-            <p className="my-4">GIT</p>
+            <p className="my-4">Git</p>
           </div>
           <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500">
             <img className="w-20 mx-auto" src={Next.src} alt="NextJS icon" />
-            <p className="my-4">NEXT JS</p>
+            <p className="my-4">Next.js</p>
           </div>
           <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500">
             <img
@@ -61,7 +61,7 @@ const Experience: React.FC = () => {
               src={TypeScript.src}
               alt="TypeScript icon"
             />
-            <p className="my-4">TYPESCRIPT</p>
+            <p className="my-4">TypeScript</p>
           </div>
           <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500">
             <img
@@ -69,7 +69,7 @@ const Experience: React.FC = () => {
               src={Tailwind.src}
               alt="Tailwind CSS icon"
             />
-            <p className="my-4">TAILWIND CSS</p>
+            <p className="my-4">Tailwind CSS</p>
           </div>
         </div>
       </div>
