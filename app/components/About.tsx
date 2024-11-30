@@ -15,22 +15,19 @@ const About: React.FC = () => {
         <div className="max-w-[62.5rem] w-full grid sm:grid-cols-2 gap-8 px-4">
           <div className="sm:text-right text-4xl font-bold">
             <p>
-              Hi. I'm Gerald Regan, thanks for checking out my portfolio! Please
-              take a look around.
+              Thanks for checking out my portfolio! Please take a look around.
             </p>
-          </div>
-          <img
-            src={Avatar.src}
-            alt="Avatar"
-            className="w-auto h-96 mx-auto rounded-lg"
-          />
-          <div>
-            <p className="text-lg text-[#9EA3B0]">
+            <p className="text-lg text-[#9EA3B0] pt-8">
               I am passionate about building elegant web applications with
               modern JavaScript frameworks. I specialise in ReactJS (currently
               using NextJS), Tailwind CSS and TypeScript.
             </p>
           </div>
+          <img
+            src={Avatar.src}
+            alt="Avatar"
+            className="w-auto h-96 mx-auto rounded-xl"
+          />
         </div>
       </div>
     </div>
