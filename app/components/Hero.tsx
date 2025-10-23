@@ -8,15 +8,14 @@ const Hero: React.FC = () => {
   return (
     <div name="home" className="w-full h-screen bg-[#0a192f]">
       <div className="max-w-[1000px] mx-auto px-8 flex flex-col justify-center h-full">
-        <p className="text-[#33ca7f] text-2xl">Hi, I'm</p>
-        <h1 className="text-4xl sm:text-7xl font-bold text-white">GERALD.</h1>
-        <h2 className="text-4xl sm:text-7xl font-bold text-[#9EA3B0]">
-          I make front-end web applications.
+        <p className="text-[#33ca7f] text-2xl">Hey there, I’m</p>
+        <h1 className="text-4xl sm:text-5xl font-bold text-white">GERALD.</h1>
+        <h2 className="text-4xl sm:text-4xl font-bold text-[#9EA3B0]">
+          A front-end developer who loves turning ideas into clean, interactive
+          web apps.
         </h2>
         <p className="text-[#9EA3B0] py-4 max-w-[700px] text-lg">
-          Front-end developer currently based in Bordeaux, France.
-          <br /> I specialise in building responsive and elegant web
-          applications.
+          Currently building digital experiences from Bordeaux, France.
         </p>
         <div>
           <Link to="about" smooth={true} duration={500}>
