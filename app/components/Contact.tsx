@@ -12,7 +12,7 @@ const Contact: React.FC = () => {
     handleSubmit(e);
     setTimeout(() => {
       setShowPopup(true);
-    }, 500);
+    }, 1500);
   };
 
   return (

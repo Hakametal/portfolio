@@ -14,13 +14,14 @@ const About: React.FC = () => {
         </div> */}
         <div className="max-w-[62.5rem] w-full grid sm:grid-cols-2 gap-8 px-4">
           <div className="sm:text-right text-4xl font-bold">
-            <p>
-              Thanks for checking out my portfolio! Please take a look around.
-            </p>
-            <p className="text-lg text-[#9EA3B0] pt-8">
-              I am passionate about building elegant web applications with
-              modern JavaScript frameworks. I specialise in ReactJS (currently
-              using NextJS), Tailwind CSS and TypeScript.
+            <p>Thanks for popping by.</p>
+            <p className="text-lg text-[#9EA3B0] pt-8 font-normal">
+              Born in London, raised in Ireland. I grew up with a deep love for
+              video games and a keen interest in computers, which eventually led
+              to working professionally as a game designer. I eventually pivoted
+              into programming where I discovered a passion for building elegant
+              web applications with modern JavaScript frameworks. Currently
+              pecialising in ReactJS (NextJS), Tailwind CSS and TypeScript.
             </p>
           </div>
           <img
