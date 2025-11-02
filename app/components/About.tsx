@@ -12,7 +12,7 @@ const About: React.FC = () => {
             </p>
           </div>
         </div> */}
-        <div className="max-w-[62.5rem] w-full grid sm:grid-cols-2 gap-8 px-4">
+        <div className="max-w-[62.5rem] w-full grid sm:grid-cols-2 px-4">
           <div className="sm:text-right text-4xl font-bold">
             <p>Thanks for popping by.</p>
             <p className="text-lg text-[#9EA3B0] pt-8 font-normal">
@@ -21,7 +21,7 @@ const About: React.FC = () => {
               to working professionally as a game designer. I eventually pivoted
               into programming where I discovered a passion for building elegant
               web applications with modern JavaScript frameworks. Currently
-              pecialising in ReactJS (NextJS), Tailwind CSS and TypeScript.
+              specialising in ReactJS (NextJS), Tailwind CSS and TypeScript.
             </p>
           </div>
           <img
