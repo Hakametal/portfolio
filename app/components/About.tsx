@@ -21,7 +21,8 @@ const About: React.FC = () => {
               to working professionally as a game designer. I eventually pivoted
               into programming where I discovered a passion for building elegant
               web applications with modern JavaScript frameworks. Currently
-              specialising in ReactJS (NextJS), Tailwind CSS and TypeScript.
+              specialising in ReactJS (NextJS), Tailwind CSS and TypeScript. ANY
+              HAAASH?
             </p>
           </div>
           <img
