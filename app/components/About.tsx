@@ -22,7 +22,7 @@ const About: React.FC = () => {
               into programming where I discovered a passion for building elegant
               web applications with modern JavaScript frameworks. Currently
               specialising in ReactJS (NextJS), Tailwind CSS and TypeScript. ANY
-              HAAASH?
+              HAAASH dush dush?
             </p>
           </div>
           <img
