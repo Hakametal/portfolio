@@ -14,7 +14,7 @@ const About: React.FC = () => {
         </div> */}
         <div className="max-w-[62.5rem] w-full grid sm:grid-cols-2 px-4">
           <div className="sm:text-right text-4xl font-bold">
-            <p>Thanks for popping by.</p>
+            <p>Thanks for dropping by.</p>
             <p className="text-lg text-[#9EA3B0] pt-8 font-normal">
               Born in London, raised in Ireland. I grew up with a deep love for
               video games and a keen interest in computers, which eventually led
